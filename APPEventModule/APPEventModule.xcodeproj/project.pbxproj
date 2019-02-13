@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FBD22129F7600A12191 /* AppDelegate.m */; };
+		83A00FC422129F7600A12191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC222129F7600A12191 /* Main.storyboard */; };
+		83A00FC622129F7800A12191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC522129F7800A12191 /* Assets.xcassets */; };
+		83A00FC922129F7800A12191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC722129F7800A12191 /* LaunchScreen.storyboard */; };
+		83A00FCC22129F7800A12191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FCB22129F7800A12191 /* main.m */; };
+		83A00FD52212A0FE00A12191 /* SHRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FD42212A0FE00A12191 /* SHRMAppDelegate.m */; };
+		83A00FD82212A43B00A12191 /* SHRMAppEventAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FD72212A43B00A12191 /* SHRMAppEventAnnotation.m */; };
+		83A00FDC2212A84400A12191 /* SHRMBaseAppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FDB2212A84400A12191 /* SHRMBaseAppEventModule.m */; };
+		83A00FDF2212AAAF00A12191 /* SHRMAppEventModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FDE2212AAAF00A12191 /* SHRMAppEventModuleManager.m */; };
+		83A00FE32212B34D00A12191 /* testMudule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE22212B34D00A12191 /* testMudule.m */; };
+		83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE52212C16200A12191 /* testLowLevelModule.m */; };
+		83A00FE92212C39300A12191 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE82212C39300A12191 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83A00FB922129F7600A12191 /* APPEventModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPEventModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A00FBC22129F7600A12191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83A00FBD22129F7600A12191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83A00FC322129F7600A12191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A00FC522129F7800A12191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A00FC822129F7800A12191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A00FCA22129F7800A12191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A00FCB22129F7800A12191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A00FD32212A0FE00A12191 /* SHRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppDelegate.h; sourceTree = "<group>"; };
+		83A00FD42212A0FE00A12191 /* SHRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMAppDelegate.m; sourceTree = "<group>"; };
+		83A00FD62212A43B00A12191 /* SHRMAppEventAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppEventAnnotation.h; sourceTree = "<group>"; };
+		83A00FD72212A43B00A12191 /* SHRMAppEventAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMAppEventAnnotation.m; sourceTree = "<group>"; };
+		83A00FD92212A6C500A12191 /* SHRMAppEventModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppEventModuleProtocol.h; sourceTree = "<group>"; };
+		83A00FDA2212A84400A12191 /* SHRMBaseAppEventModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMBaseAppEventModule.h; sourceTree = "<group>"; };
+		83A00FDB2212A84400A12191 /* SHRMBaseAppEventModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMBaseAppEventModule.m; sourceTree = "<group>"; };
+		83A00FDD2212AAAE00A12191 /* SHRMAppEventModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppEventModuleManager.h; sourceTree = "<group>"; };
+		83A00FDE2212AAAF00A12191 /* SHRMAppEventModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMAppEventModuleManager.m; sourceTree = "<group>"; };
+		83A00FE12212B34D00A12191 /* testMudule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testMudule.h; sourceTree = "<group>"; };
+		83A00FE22212B34D00A12191 /* testMudule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMudule.m; sourceTree = "<group>"; };
+		83A00FE42212C16200A12191 /* testLowLevelModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testLowLevelModule.h; sourceTree = "<group>"; };
+		83A00FE52212C16200A12191 /* testLowLevelModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testLowLevelModule.m; sourceTree = "<group>"; };
+		83A00FE72212C39300A12191 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		83A00FE82212C39300A12191 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A00FB622129F7600A12191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A00FB022129F7600A12191 = {
+			isa = PBXGroup;
+			children = (
+				83A00FBB22129F7600A12191 /* APPEventModule */,
+				83A00FBA22129F7600A12191 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A00FBA22129F7600A12191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A00FB922129F7600A12191 /* APPEventModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A00FBB22129F7600A12191 /* APPEventModule */ = {
+			isa = PBXGroup;
+			children = (
+				83A00FE02212AF1F00A12191 /* APPEventModule */,
+				83A00FD22212A08000A12191 /* APPEventModuleComponent */,
+				83A00FBC22129F7600A12191 /* AppDelegate.h */,
+				83A00FBD22129F7600A12191 /* AppDelegate.m */,
+				83A00FC222129F7600A12191 /* Main.storyboard */,
+				83A00FC522129F7800A12191 /* Assets.xcassets */,
+				83A00FC722129F7800A12191 /* LaunchScreen.storyboard */,
+				83A00FCA22129F7800A12191 /* Info.plist */,
+				83A00FCB22129F7800A12191 /* main.m */,
+				83A00FE72212C39300A12191 /* MainViewController.h */,
+				83A00FE82212C39300A12191 /* MainViewController.m */,
+			);
+			path = APPEventModule;
+			sourceTree = "<group>";
+		};
+		83A00FD22212A08000A12191 /* APPEventModuleComponent */ = {
+			isa = PBXGroup;
+			children = (
+				83A00FD32212A0FE00A12191 /* SHRMAppDelegate.h */,
+				83A00FD42212A0FE00A12191 /* SHRMAppDelegate.m */,
+				83A00FD62212A43B00A12191 /* SHRMAppEventAnnotation.h */,
+				83A00FD72212A43B00A12191 /* SHRMAppEventAnnotation.m */,
+				83A00FD92212A6C500A12191 /* SHRMAppEventModuleProtocol.h */,
+				83A00FDA2212A84400A12191 /* SHRMBaseAppEventModule.h */,
+				83A00FDB2212A84400A12191 /* SHRMBaseAppEventModule.m */,
+				83A00FDD2212AAAE00A12191 /* SHRMAppEventModuleManager.h */,
+				83A00FDE2212AAAF00A12191 /* SHRMAppEventModuleManager.m */,
+			);
+			path = APPEventModuleComponent;
+			sourceTree = "<group>";
+		};
+		83A00FE02212AF1F00A12191 /* APPEventModule */ = {
+			isa = PBXGroup;
+			children = (
+				83A00FE12212B34D00A12191 /* testMudule.h */,
+				83A00FE22212B34D00A12191 /* testMudule.m */,
+				83A00FE42212C16200A12191 /* testLowLevelModule.h */,
+				83A00FE52212C16200A12191 /* testLowLevelModule.m */,
+			);
+			path = APPEventModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A00FB822129F7600A12191 /* APPEventModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "APPEventModule" */;
+			buildPhases = (
+				83A00FB522129F7600A12191 /* Sources */,
+				83A00FB622129F7600A12191 /* Frameworks */,
+				83A00FB722129F7600A12191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APPEventModule;
+			productName = APPEventModule;
+			productReference = 83A00FB922129F7600A12191 /* APPEventModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A00FB122129F7600A12191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王凯";
+				TargetAttributes = {
+					83A00FB822129F7600A12191 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 83A00FB422129F7600A12191 /* Build configuration list for PBXProject "APPEventModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A00FB022129F7600A12191;
+			productRefGroup = 83A00FBA22129F7600A12191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A00FB822129F7600A12191 /* APPEventModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A00FB722129F7600A12191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A00FC922129F7800A12191 /* LaunchScreen.storyboard in Resources */,
+				83A00FC622129F7800A12191 /* Assets.xcassets in Resources */,
+				83A00FC422129F7600A12191 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A00FB522129F7600A12191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A00FCC22129F7800A12191 /* main.m in Sources */,
+				83A00FD82212A43B00A12191 /* SHRMAppEventAnnotation.m in Sources */,
+				83A00FE32212B34D00A12191 /* testMudule.m in Sources */,
+				83A00FD52212A0FE00A12191 /* SHRMAppDelegate.m in Sources */,
+				83A00FE92212C39300A12191 /* MainViewController.m in Sources */,
+				83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */,
+				83A00FDF2212AAAF00A12191 /* SHRMAppEventModuleManager.m in Sources */,
+				83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */,
+				83A00FDC2212A84400A12191 /* SHRMBaseAppEventModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83A00FC222129F7600A12191 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A00FC322129F7600A12191 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83A00FC722129F7800A12191 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A00FC822129F7800A12191 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A00FCD22129F7800A12191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83A00FCE22129F7800A12191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A00FD022129F7800A12191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 929467FPP6;
+				INFOPLIST_FILE = APPEventModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangkai.responder.APPEventModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A00FD122129F7800A12191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 929467FPP6;
+				INFOPLIST_FILE = APPEventModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangkai.responder.APPEventModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A00FB422129F7600A12191 /* Build configuration list for PBXProject "APPEventModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A00FCD22129F7800A12191 /* Debug */,
+				83A00FCE22129F7800A12191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "APPEventModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A00FD022129F7800A12191 /* Debug */,
+				83A00FD122129F7800A12191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A00FB122129F7600A12191 /* Project object */;
+}
