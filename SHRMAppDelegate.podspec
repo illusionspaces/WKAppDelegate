@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SHRMAppDelegate"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "一个对APPDelegate深度解耦的逻辑."
 
  

@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006F27A1DD38CFBFFB204951BB3E1BCF /* SHRMAppEventAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E52A49C938EC1486862EAD83F824C9 /* SHRMAppEventAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C05DE8D46512AE07A843E3B956B3A16 /* SHRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8522C40909C156B53D4D1991D15EFAD /* SHRMAppDelegate.m */; };
-		5C6F63F7484D3EDD01908BB5C8172FFD /* SHRMAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A0C23AC707F6A39F6FCBC4DE1BD2A8 /* SHRMAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		693EE1026922AD67BE443871C187266B /* SHRMAppEventModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5064AAD782F8426262C41A3C64438E46 /* SHRMAppEventModuleManager.m */; };
-		8356C70A393FC5D37C91902A8DFA4447 /* SHRMAppDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878E542C17B1F47DA9CD09EDCC9583 /* SHRMAppDelegate-dummy.m */; };
-		8CCBCA348F335C2AECBE16C39A4B6BE8 /* SHRMBaseAppEventModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 9248AA2BC0D0A801A24B84BE94D1A3EB /* SHRMBaseAppEventModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A05E4EE2EA6048CD6676AD4A5DF3BDA8 /* SHRMBaseAppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B381097416B7D8BBA9CA5B0E9746EB /* SHRMBaseAppEventModule.m */; };
+		08378088D4D06D05F75BDEA750E33B04 /* SHRMAppEventAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A37C17676F7FF094FF9B2C9E4E646 /* SHRMAppEventAnnotation.m */; };
+		0D6860142ACD8698955B51C6DED7A6B6 /* SHRMAppEventAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C297D295ACA9C83EE1F1A3B03BEEF7F3 /* SHRMAppEventAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14A5714DB9E5C0C691EDE54E6D71A694 /* SHRMAppEventModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD38613E79316107F493CC4E3226155 /* SHRMAppEventModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AAA44B51D0820295A01C2C35AF0A8DE /* SHRMBaseAppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF8EFDECECDC72202A2E1967C20480 /* SHRMBaseAppEventModule.m */; };
+		4323E1914618E4FA1B49DEE5D58C9AB4 /* SHRMBaseAppEventModule.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC70989C8B9EE5B18DB9B74D62E4AB8 /* SHRMBaseAppEventModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90F509E881902515D5C7A7FDD39C0028 /* SHRMAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 14840D66C96C8CFC1A74DC0A47753E0C /* SHRMAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A567B05AD34C06935BDF456C7046C09F /* SHRMAppEventModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEE166523CCFA21487FD01EEA3C6F1B /* SHRMAppEventModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B02B92E1E46B37E3981B700B39419D5C /* NSObject+AppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B31D130759906BECF13805A77DAE4 /* NSObject+AppEventModule.m */; };
 		B990F67807EC5E8AC3921E0216E7E633 /* Pods-SHRMAppDelegate-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B01C08DFBB81540B0DFFAC0AC8FEAA /* Pods-SHRMAppDelegate-demo-dummy.m */; };
-		CC1BCA412591A5C789821C7B31085B4C /* SHRMAppEventModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACF75DB93DB6759AF5E2B1478A51C2C /* SHRMAppEventModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D291A48C76C8D6CACA8ABE312AE2F527 /* SHRMAppEventModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB32025D56D73A1AEDEAE0DABF66E59 /* SHRMAppEventModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE4C0B0BB71AD1B1BBA89885D4D2AC53 /* SHRMAppEventAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10548378C8820D22D0E1171757F2741D /* SHRMAppEventAnnotation.m */; };
+		C77D71803366D67B0ED34374883EDAF0 /* SHRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AFD91341470DD07AC7C4811AAC284B /* SHRMAppDelegate.m */; };
+		CC52C74073C0AAF4C8901E742DE71DB2 /* NSObject+AppEventModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E79A165D61E545AA1E968B80755E444 /* NSObject+AppEventModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E93D224B378E51455E54C378EB043381 /* SHRMAppDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F499FA59DAE3DD1475C09E58E2CC1D2C /* SHRMAppDelegate-dummy.m */; };
+		F3C07BBFF506020F08E405D95958DBE8 /* SHRMAppEventModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D96C4E9131DA1F21D5545CBB17CD9D0 /* SHRMAppEventModuleManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,24 +33,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ACF75DB93DB6759AF5E2B1478A51C2C /* SHRMAppEventModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventModuleManager.h; path = SHRMAppDelegate/SHRMAppEventModuleManager.h; sourceTree = "<group>"; };
-		10548378C8820D22D0E1171757F2741D /* SHRMAppEventAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppEventAnnotation.m; path = SHRMAppDelegate/SHRMAppEventAnnotation.m; sourceTree = "<group>"; };
+		0CD38613E79316107F493CC4E3226155 /* SHRMAppEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventModuleProtocol.h; path = SHRMAppDelegate/SHRMAppEventModuleProtocol.h; sourceTree = "<group>"; };
+		14840D66C96C8CFC1A74DC0A47753E0C /* SHRMAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppDelegate.h; path = SHRMAppDelegate/SHRMAppDelegate.h; sourceTree = "<group>"; };
+		1D96C4E9131DA1F21D5545CBB17CD9D0 /* SHRMAppEventModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppEventModuleManager.m; path = SHRMAppDelegate/SHRMAppEventModuleManager.m; sourceTree = "<group>"; };
+		3E79A165D61E545AA1E968B80755E444 /* NSObject+AppEventModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AppEventModule.h"; path = "SHRMAppDelegate/NSObject+AppEventModule.h"; sourceTree = "<group>"; };
 		4176937127FEA303C748F1AE87537819 /* Pods-SHRMAppDelegate-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRMAppDelegate-demo.release.xcconfig"; sourceTree = "<group>"; };
-		4EB32025D56D73A1AEDEAE0DABF66E59 /* SHRMAppEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventModuleProtocol.h; path = SHRMAppDelegate/SHRMAppEventModuleProtocol.h; sourceTree = "<group>"; };
-		5064AAD782F8426262C41A3C64438E46 /* SHRMAppEventModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppEventModuleManager.m; path = SHRMAppDelegate/SHRMAppEventModuleManager.m; sourceTree = "<group>"; };
-		6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHRMAppDelegate.xcconfig; sourceTree = "<group>"; };
-		65878E542C17B1F47DA9CD09EDCC9583 /* SHRMAppDelegate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHRMAppDelegate-dummy.m"; sourceTree = "<group>"; };
-		71E52A49C938EC1486862EAD83F824C9 /* SHRMAppEventAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventAnnotation.h; path = SHRMAppDelegate/SHRMAppEventAnnotation.h; sourceTree = "<group>"; };
 		78B08DFA95991147A4F0FD82FD7D2327 /* libSHRMAppDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSHRMAppDelegate.a; path = libSHRMAppDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9248AA2BC0D0A801A24B84BE94D1A3EB /* SHRMBaseAppEventModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMBaseAppEventModule.h; path = SHRMAppDelegate/SHRMBaseAppEventModule.h; sourceTree = "<group>"; };
+		8412117732F51F441A3A74C7B50AEFAB /* SHRMAppDelegate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHRMAppDelegate.xcconfig; sourceTree = "<group>"; };
+		856B31D130759906BECF13805A77DAE4 /* NSObject+AppEventModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AppEventModule.m"; path = "SHRMAppDelegate/NSObject+AppEventModule.m"; sourceTree = "<group>"; };
 		92AE78D5B6A4908D8EAB5D8591010FE8 /* Pods-SHRMAppDelegate-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHRMAppDelegate-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		94B01C08DFBB81540B0DFFAC0AC8FEAA /* Pods-SHRMAppDelegate-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHRMAppDelegate-demo-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B8522C40909C156B53D4D1991D15EFAD /* SHRMAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppDelegate.m; path = SHRMAppDelegate/SHRMAppDelegate.m; sourceTree = "<group>"; };
+		A7AFD91341470DD07AC7C4811AAC284B /* SHRMAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppDelegate.m; path = SHRMAppDelegate/SHRMAppDelegate.m; sourceTree = "<group>"; };
+		AF1A37C17676F7FF094FF9B2C9E4E646 /* SHRMAppEventAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppEventAnnotation.m; path = SHRMAppDelegate/SHRMAppEventAnnotation.m; sourceTree = "<group>"; };
+		B4216EA4EBDD0094FFDEFDACFA2F8CFA /* SHRMAppDelegate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHRMAppDelegate-prefix.pch"; sourceTree = "<group>"; };
+		BDDF8EFDECECDC72202A2E1967C20480 /* SHRMBaseAppEventModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMBaseAppEventModule.m; path = SHRMAppDelegate/SHRMBaseAppEventModule.m; sourceTree = "<group>"; };
+		C297D295ACA9C83EE1F1A3B03BEEF7F3 /* SHRMAppEventAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventAnnotation.h; path = SHRMAppDelegate/SHRMAppEventAnnotation.h; sourceTree = "<group>"; };
 		CE3A6E6A71BF1A89F0B3723E1280B86A /* Pods-SHRMAppDelegate-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHRMAppDelegate-demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD40DE3D9B2471FB74686A071FB2B16A /* SHRMAppDelegate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHRMAppDelegate-prefix.pch"; sourceTree = "<group>"; };
-		E9B381097416B7D8BBA9CA5B0E9746EB /* SHRMBaseAppEventModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMBaseAppEventModule.m; path = SHRMAppDelegate/SHRMBaseAppEventModule.m; sourceTree = "<group>"; };
-		F3A0C23AC707F6A39F6FCBC4DE1BD2A8 /* SHRMAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppDelegate.h; path = SHRMAppDelegate/SHRMAppDelegate.h; sourceTree = "<group>"; };
+		CFEE166523CCFA21487FD01EEA3C6F1B /* SHRMAppEventModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventModuleManager.h; path = SHRMAppDelegate/SHRMAppEventModuleManager.h; sourceTree = "<group>"; };
+		DBC70989C8B9EE5B18DB9B74D62E4AB8 /* SHRMBaseAppEventModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMBaseAppEventModule.h; path = SHRMAppDelegate/SHRMBaseAppEventModule.h; sourceTree = "<group>"; };
+		F499FA59DAE3DD1475C09E58E2CC1D2C /* SHRMAppDelegate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHRMAppDelegate-dummy.m"; sourceTree = "<group>"; };
 		F9A2E0584902B3F890F186A29273F271 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRMAppDelegate-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		FAAABECC22981B4204897FB07C75D365 /* libPods-SHRMAppDelegate-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SHRMAppDelegate-demo.a"; path = "libPods-SHRMAppDelegate-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,6 +75,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1011ED6C47FA0D1BE144B1F5F34A10FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8412117732F51F441A3A74C7B50AEFAB /* SHRMAppDelegate.xcconfig */,
+				F499FA59DAE3DD1475C09E58E2CC1D2C /* SHRMAppDelegate-dummy.m */,
+				B4216EA4EBDD0094FFDEFDACFA2F8CFA /* SHRMAppDelegate-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SHRMAppDelegate";
+			sourceTree = "<group>";
+		};
+		2D02BCAEE1F24019BC3BE0D734AC5023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				996591724DDDE56455248E04F3B16D8B /* SHRMAppDelegate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		37FDBC1FEAEB3CD8A055F9B11C5C26F1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,41 +102,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		55C61648C8CD1B08C6E18404C959CB93 /* Pods */ = {
+		996591724DDDE56455248E04F3B16D8B /* SHRMAppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				61547003712B01ADFBAB41BC4A71D668 /* SHRMAppDelegate */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		61547003712B01ADFBAB41BC4A71D668 /* SHRMAppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				F3A0C23AC707F6A39F6FCBC4DE1BD2A8 /* SHRMAppDelegate.h */,
-				B8522C40909C156B53D4D1991D15EFAD /* SHRMAppDelegate.m */,
-				71E52A49C938EC1486862EAD83F824C9 /* SHRMAppEventAnnotation.h */,
-				10548378C8820D22D0E1171757F2741D /* SHRMAppEventAnnotation.m */,
-				0ACF75DB93DB6759AF5E2B1478A51C2C /* SHRMAppEventModuleManager.h */,
-				5064AAD782F8426262C41A3C64438E46 /* SHRMAppEventModuleManager.m */,
-				4EB32025D56D73A1AEDEAE0DABF66E59 /* SHRMAppEventModuleProtocol.h */,
-				9248AA2BC0D0A801A24B84BE94D1A3EB /* SHRMBaseAppEventModule.h */,
-				E9B381097416B7D8BBA9CA5B0E9746EB /* SHRMBaseAppEventModule.m */,
-				9696206AD5705B7FACD4194E0A3F3C33 /* Support Files */,
+				3E79A165D61E545AA1E968B80755E444 /* NSObject+AppEventModule.h */,
+				856B31D130759906BECF13805A77DAE4 /* NSObject+AppEventModule.m */,
+				14840D66C96C8CFC1A74DC0A47753E0C /* SHRMAppDelegate.h */,
+				A7AFD91341470DD07AC7C4811AAC284B /* SHRMAppDelegate.m */,
+				C297D295ACA9C83EE1F1A3B03BEEF7F3 /* SHRMAppEventAnnotation.h */,
+				AF1A37C17676F7FF094FF9B2C9E4E646 /* SHRMAppEventAnnotation.m */,
+				CFEE166523CCFA21487FD01EEA3C6F1B /* SHRMAppEventModuleManager.h */,
+				1D96C4E9131DA1F21D5545CBB17CD9D0 /* SHRMAppEventModuleManager.m */,
+				0CD38613E79316107F493CC4E3226155 /* SHRMAppEventModuleProtocol.h */,
+				DBC70989C8B9EE5B18DB9B74D62E4AB8 /* SHRMBaseAppEventModule.h */,
+				BDDF8EFDECECDC72202A2E1967C20480 /* SHRMBaseAppEventModule.m */,
+				1011ED6C47FA0D1BE144B1F5F34A10FB /* Support Files */,
 			);
 			name = SHRMAppDelegate;
 			path = SHRMAppDelegate;
-			sourceTree = "<group>";
-		};
-		9696206AD5705B7FACD4194E0A3F3C33 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */,
-				65878E542C17B1F47DA9CD09EDCC9583 /* SHRMAppDelegate-dummy.m */,
-				DD40DE3D9B2471FB74686A071FB2B16A /* SHRMAppDelegate-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SHRMAppDelegate";
 			sourceTree = "<group>";
 		};
 		CDAC98B4000C8EED6632BD41D51EE970 /* Products */ = {
@@ -130,7 +136,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				55C61648C8CD1B08C6E18404C959CB93 /* Pods */,
+				2D02BCAEE1F24019BC3BE0D734AC5023 /* Pods */,
 				CDAC98B4000C8EED6632BD41D51EE970 /* Products */,
 				37FDBC1FEAEB3CD8A055F9B11C5C26F1 /* Targets Support Files */,
 			);
@@ -159,15 +165,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		54152DB0F638C69AD75010B9075E09AC /* Headers */ = {
+		303065022200F9BA673FC59B89054F7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6F63F7484D3EDD01908BB5C8172FFD /* SHRMAppDelegate.h in Headers */,
-				006F27A1DD38CFBFFB204951BB3E1BCF /* SHRMAppEventAnnotation.h in Headers */,
-				CC1BCA412591A5C789821C7B31085B4C /* SHRMAppEventModuleManager.h in Headers */,
-				D291A48C76C8D6CACA8ABE312AE2F527 /* SHRMAppEventModuleProtocol.h in Headers */,
-				8CCBCA348F335C2AECBE16C39A4B6BE8 /* SHRMBaseAppEventModule.h in Headers */,
+				CC52C74073C0AAF4C8901E742DE71DB2 /* NSObject+AppEventModule.h in Headers */,
+				90F509E881902515D5C7A7FDD39C0028 /* SHRMAppDelegate.h in Headers */,
+				0D6860142ACD8698955B51C6DED7A6B6 /* SHRMAppEventAnnotation.h in Headers */,
+				A567B05AD34C06935BDF456C7046C09F /* SHRMAppEventModuleManager.h in Headers */,
+				14A5714DB9E5C0C691EDE54E6D71A694 /* SHRMAppEventModuleProtocol.h in Headers */,
+				4323E1914618E4FA1B49DEE5D58C9AB4 /* SHRMBaseAppEventModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +210,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2BD4E54E0E17F4401A83DE0F1E695ED /* Build configuration list for PBXNativeTarget "SHRMAppDelegate" */;
 			buildPhases = (
-				54152DB0F638C69AD75010B9075E09AC /* Headers */,
-				DC47939295BCB2497BD586E36DF20ADC /* Sources */,
+				303065022200F9BA673FC59B89054F7C /* Headers */,
+				43329B4564B71DE961803D4AAE76BA40 /* Sources */,
 				315631D0B873727EE451FAF361A08F9B /* Frameworks */,
 			);
 			buildRules = (
@@ -244,23 +251,24 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		43329B4564B71DE961803D4AAE76BA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02B92E1E46B37E3981B700B39419D5C /* NSObject+AppEventModule.m in Sources */,
+				E93D224B378E51455E54C378EB043381 /* SHRMAppDelegate-dummy.m in Sources */,
+				C77D71803366D67B0ED34374883EDAF0 /* SHRMAppDelegate.m in Sources */,
+				08378088D4D06D05F75BDEA750E33B04 /* SHRMAppEventAnnotation.m in Sources */,
+				F3C07BBFF506020F08E405D95958DBE8 /* SHRMAppEventModuleManager.m in Sources */,
+				2AAA44B51D0820295A01C2C35AF0A8DE /* SHRMBaseAppEventModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8530920D0B18FAB70CF1769A3FD18348 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B990F67807EC5E8AC3921E0216E7E633 /* Pods-SHRMAppDelegate-demo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC47939295BCB2497BD586E36DF20ADC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8356C70A393FC5D37C91902A8DFA4447 /* SHRMAppDelegate-dummy.m in Sources */,
-				5C05DE8D46512AE07A843E3B956B3A16 /* SHRMAppDelegate.m in Sources */,
-				FE4C0B0BB71AD1B1BBA89885D4D2AC53 /* SHRMAppEventAnnotation.m in Sources */,
-				693EE1026922AD67BE443871C187266B /* SHRMAppEventModuleManager.m in Sources */,
-				A05E4EE2EA6048CD6676AD4A5DF3BDA8 /* SHRMBaseAppEventModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +286,7 @@
 /* Begin XCBuildConfiguration section */
 		25BEFD2A0281DB03FE6E693B0AB3F384 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */;
+			baseConfigurationReference = 8412117732F51F441A3A74C7B50AEFAB /* SHRMAppDelegate.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -365,7 +373,7 @@
 		};
 		4BA0624E3F999D3266A204F8D242E4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */;
+			baseConfigurationReference = 8412117732F51F441A3A74C7B50AEFAB /* SHRMAppDelegate.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -1,5 +1,5 @@
 PODS:
-  - SHRMAppDelegate (0.0.2)
+  - SHRMAppDelegate (0.0.3)
 
 DEPENDENCIES:
   - SHRMAppDelegate
@@ -9,7 +9,7 @@ SPEC REPOS:
     - SHRMAppDelegate
 
 SPEC CHECKSUMS:
-  SHRMAppDelegate: d07bcd9f9e51c235e15862e593eaafdae1678418
+  SHRMAppDelegate: e57fe9f4673a0002978bc3acfdabe318138a59db
 
 PODFILE CHECKSUM: 1c0011c2202135ffb7fada3a1a0c8d0c4522dd06
 

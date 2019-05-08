@@ -2,7 +2,7 @@
 * Blog : [AppDelegate的模块化+瘦身](https://juejin.im/post/5c62caf6e51d457fc905dd75)
 
 ## 介绍
-**一个对APPDelegate深度解耦的逻辑，教你实现APPDelegate模块化拆分，原本上千行的代码可以简化到10行内，使用方便，无代码浸入。支持iOS6+**
+**一个对APPDelegate深度解耦的逻辑，教你实现APPDelegate模块化拆分，原本上千行的代码可以简化到10行内，使用方便，极少的代码浸入。支持iOS6+**
 
 **AppDelegate简化后的样子：**
 
@@ -47,7 +47,7 @@ self.window.rootViewController = [[MainViewController alloc] init];
 ## 安装
 
 ### 1.CocoaPods
-1. 在 Podfile 中添加 `pod 'SHRMAppDelegate', '~> 0.0.1'`。
+1. 在 Podfile 中添加 `pod 'SHRMAppDelegate', '~> 0.0.2'`。
 2. 执行 `pod install` 或 `pod update`。
 3. 在AppDelegate中导入 `<SHRMAppDelegate.h>`并继承。
 
