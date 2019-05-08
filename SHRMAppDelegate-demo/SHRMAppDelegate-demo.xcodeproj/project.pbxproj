@@ -19,10 +19,18 @@
 		83A00FE32212B34D00A12191 /* testMudule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE22212B34D00A12191 /* testMudule.m */; };
 		83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE52212C16200A12191 /* testLowLevelModule.m */; };
 		83A00FE92212C39300A12191 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE82212C39300A12191 /* MainViewController.m */; };
+		83A00FEC2214045400A12191 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FEB2214045400A12191 /* MainView.m */; };
+		83A01001221417BD00A12191 /* MainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FFB221417BD00A12191 /* MainToolbar.m */; };
+		83A01002221417BD00A12191 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FFF221417BD00A12191 /* BaseButton.m */; };
+		83A01003221417BD00A12191 /* BaseToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A01000221417BD00A12191 /* BaseToolbar.m */; };
+		83A010072214185F00A12191 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A010062214185F00A12191 /* HomeController.m */; };
+		83A0100A2214187000A12191 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A010092214187000A12191 /* MyViewController.m */; };
+		83A0100D2214188F00A12191 /* ComponentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0100C2214188F00A12191 /* ComponentController.m */; };
+		83A010102214189A00A12191 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0100F2214189A00A12191 /* SetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83A00FB922129F7600A12191 /* APPEventModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPEventModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHRMAppDelegate-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A00FBC22129F7600A12191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83A00FBD22129F7600A12191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83A00FC322129F7600A12191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +53,23 @@
 		83A00FE52212C16200A12191 /* testLowLevelModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testLowLevelModule.m; sourceTree = "<group>"; };
 		83A00FE72212C39300A12191 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		83A00FE82212C39300A12191 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		83A00FEA2214045400A12191 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		83A00FEB2214045400A12191 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		83A00FF32214072300A12191 /* UIConfigDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIConfigDefine.h; sourceTree = "<group>"; };
+		83A00FFB221417BD00A12191 /* MainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainToolbar.m; sourceTree = "<group>"; };
+		83A00FFC221417BD00A12191 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		83A00FFD221417BD00A12191 /* BaseToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseToolbar.h; sourceTree = "<group>"; };
+		83A00FFE221417BD00A12191 /* MainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainToolbar.h; sourceTree = "<group>"; };
+		83A00FFF221417BD00A12191 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+		83A01000221417BD00A12191 /* BaseToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseToolbar.m; sourceTree = "<group>"; };
+		83A010052214185F00A12191 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		83A010062214185F00A12191 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		83A010082214187000A12191 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		83A010092214187000A12191 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		83A0100B2214188F00A12191 /* ComponentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentController.h; sourceTree = "<group>"; };
+		83A0100C2214188F00A12191 /* ComponentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentController.m; sourceTree = "<group>"; };
+		83A0100E2214189A00A12191 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		83A0100F2214189A00A12191 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +86,7 @@
 		83A00FB022129F7600A12191 = {
 			isa = PBXGroup;
 			children = (
-				83A00FBB22129F7600A12191 /* APPEventModule */,
+				83A00FBB22129F7600A12191 /* SHRMAppDelegate-demo */,
 				83A00FBA22129F7600A12191 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,16 +94,18 @@
 		83A00FBA22129F7600A12191 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83A00FB922129F7600A12191 /* APPEventModule.app */,
+				83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83A00FBB22129F7600A12191 /* APPEventModule */ = {
+		83A00FBB22129F7600A12191 /* SHRMAppDelegate-demo */ = {
 			isa = PBXGroup;
 			children = (
+				83A010042214181500A12191 /* Bussiness */,
+				83A00FED2214055500A12191 /* Common */,
 				83A00FE02212AF1F00A12191 /* APPEventModule */,
-				83A00FD22212A08000A12191 /* APPEventModuleComponent */,
+				83A00FD22212A08000A12191 /* SHRMAppDelegate */,
 				83A00FBC22129F7600A12191 /* AppDelegate.h */,
 				83A00FBD22129F7600A12191 /* AppDelegate.m */,
 				83A00FC222129F7600A12191 /* Main.storyboard */,
@@ -88,11 +115,13 @@
 				83A00FCB22129F7800A12191 /* main.m */,
 				83A00FE72212C39300A12191 /* MainViewController.h */,
 				83A00FE82212C39300A12191 /* MainViewController.m */,
+				83A00FEA2214045400A12191 /* MainView.h */,
+				83A00FEB2214045400A12191 /* MainView.m */,
 			);
-			path = APPEventModule;
+			path = "SHRMAppDelegate-demo";
 			sourceTree = "<group>";
 		};
-		83A00FD22212A08000A12191 /* APPEventModuleComponent */ = {
+		83A00FD22212A08000A12191 /* SHRMAppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				83A00FD32212A0FE00A12191 /* SHRMAppDelegate.h */,
@@ -105,7 +134,7 @@
 				83A00FDD2212AAAE00A12191 /* SHRMAppEventModuleManager.h */,
 				83A00FDE2212AAAF00A12191 /* SHRMAppEventModuleManager.m */,
 			);
-			path = APPEventModuleComponent;
+			path = SHRMAppDelegate;
 			sourceTree = "<group>";
 		};
 		83A00FE02212AF1F00A12191 /* APPEventModule */ = {
@@ -119,12 +148,57 @@
 			path = APPEventModule;
 			sourceTree = "<group>";
 		};
+		83A00FED2214055500A12191 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				83A00FEE2214056500A12191 /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		83A00FEE2214056500A12191 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				83A00FFA221417BD00A12191 /* Toolbar */,
+				83A00FF32214072300A12191 /* UIConfigDefine.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		83A00FFA221417BD00A12191 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				83A00FFB221417BD00A12191 /* MainToolbar.m */,
+				83A00FFC221417BD00A12191 /* BaseButton.h */,
+				83A00FFD221417BD00A12191 /* BaseToolbar.h */,
+				83A00FFE221417BD00A12191 /* MainToolbar.h */,
+				83A00FFF221417BD00A12191 /* BaseButton.m */,
+				83A01000221417BD00A12191 /* BaseToolbar.m */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		83A010042214181500A12191 /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+				83A010052214185F00A12191 /* HomeController.h */,
+				83A010062214185F00A12191 /* HomeController.m */,
+				83A010082214187000A12191 /* MyViewController.h */,
+				83A010092214187000A12191 /* MyViewController.m */,
+				83A0100B2214188F00A12191 /* ComponentController.h */,
+				83A0100C2214188F00A12191 /* ComponentController.m */,
+				83A0100E2214189A00A12191 /* SetViewController.h */,
+				83A0100F2214189A00A12191 /* SetViewController.m */,
+			);
+			path = Bussiness;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83A00FB822129F7600A12191 /* APPEventModule */ = {
+		83A00FB822129F7600A12191 /* SHRMAppDelegate-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "APPEventModule" */;
+			buildConfigurationList = 83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "SHRMAppDelegate-demo" */;
 			buildPhases = (
 				83A00FB522129F7600A12191 /* Sources */,
 				83A00FB622129F7600A12191 /* Frameworks */,
@@ -134,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = APPEventModule;
+			name = "SHRMAppDelegate-demo";
 			productName = APPEventModule;
-			productReference = 83A00FB922129F7600A12191 /* APPEventModule.app */;
+			productReference = 83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83A00FB422129F7600A12191 /* Build configuration list for PBXProject "APPEventModule" */;
+			buildConfigurationList = 83A00FB422129F7600A12191 /* Build configuration list for PBXProject "SHRMAppDelegate-demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,7 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83A00FB822129F7600A12191 /* APPEventModule */,
+				83A00FB822129F7600A12191 /* SHRMAppDelegate-demo */,
 			);
 		};
 /* End PBXProject section */
@@ -194,9 +268,17 @@
 				83A00FE32212B34D00A12191 /* testMudule.m in Sources */,
 				83A00FD52212A0FE00A12191 /* SHRMAppDelegate.m in Sources */,
 				83A00FE92212C39300A12191 /* MainViewController.m in Sources */,
+				83A01003221417BD00A12191 /* BaseToolbar.m in Sources */,
+				83A01001221417BD00A12191 /* MainToolbar.m in Sources */,
+				83A010102214189A00A12191 /* SetViewController.m in Sources */,
+				83A0100D2214188F00A12191 /* ComponentController.m in Sources */,
+				83A00FEC2214045400A12191 /* MainView.m in Sources */,
+				83A010072214185F00A12191 /* HomeController.m in Sources */,
+				83A0100A2214187000A12191 /* MyViewController.m in Sources */,
 				83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */,
 				83A00FDF2212AAAF00A12191 /* SHRMAppEventModuleManager.m in Sources */,
 				83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */,
+				83A01002221417BD00A12191 /* BaseButton.m in Sources */,
 				83A00FDC2212A84400A12191 /* SHRMBaseAppEventModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,12 +423,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 929467FPP6;
-				INFOPLIST_FILE = APPEventModule/Info.plist;
+				INFOPLIST_FILE = "SHRMAppDelegate-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangkai.responder.APPEventModule;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangkai.responder.SHRMAppDelegate-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,12 +440,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 929467FPP6;
-				INFOPLIST_FILE = APPEventModule/Info.plist;
+				INFOPLIST_FILE = "SHRMAppDelegate-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangkai.responder.APPEventModule;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangkai.responder.SHRMAppDelegate-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83A00FB422129F7600A12191 /* Build configuration list for PBXProject "APPEventModule" */ = {
+		83A00FB422129F7600A12191 /* Build configuration list for PBXProject "SHRMAppDelegate-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A00FCD22129F7800A12191 /* Debug */,
@@ -381,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "APPEventModule" */ = {
+		83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "SHRMAppDelegate-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A00FD022129F7800A12191 /* Debug */,
