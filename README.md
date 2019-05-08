@@ -2,7 +2,6 @@
 
 [![Version](https://img.shields.io/cocoapods/v/SHRMAppDelegate.svg?style=flat)](http://cocoapods.org/pods/SHRMAppDelegate)
 [![Pod License](http://img.shields.io/cocoapods/l/SHRMAppDelegate.svg?style=flat)](https://opensource.org/licenses/MIT)
-![](https://img.shields.io/badge/language-objc-orange.svg)
 ![iOS 6.0+](https://img.shields.io/badge/iOS-6.0%2B-blue.svg)
 ![](https://img.shields.io/badge/language-objc-orange.svg)
 ![ARC](https://img.shields.io/badge/ARC-orange.svg)
