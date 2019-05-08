@@ -12,10 +12,6 @@
 		83A00FC622129F7800A12191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC522129F7800A12191 /* Assets.xcassets */; };
 		83A00FC922129F7800A12191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC722129F7800A12191 /* LaunchScreen.storyboard */; };
 		83A00FCC22129F7800A12191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FCB22129F7800A12191 /* main.m */; };
-		83A00FD52212A0FE00A12191 /* SHRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FD42212A0FE00A12191 /* SHRMAppDelegate.m */; };
-		83A00FD82212A43B00A12191 /* SHRMAppEventAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FD72212A43B00A12191 /* SHRMAppEventAnnotation.m */; };
-		83A00FDC2212A84400A12191 /* SHRMBaseAppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FDB2212A84400A12191 /* SHRMBaseAppEventModule.m */; };
-		83A00FDF2212AAAF00A12191 /* SHRMAppEventModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FDE2212AAAF00A12191 /* SHRMAppEventModuleManager.m */; };
 		83A00FE32212B34D00A12191 /* testMudule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE22212B34D00A12191 /* testMudule.m */; };
 		83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE52212C16200A12191 /* testLowLevelModule.m */; };
 		83A00FE92212C39300A12191 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FE82212C39300A12191 /* MainViewController.m */; };
@@ -27,9 +23,11 @@
 		83A0100A2214187000A12191 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A010092214187000A12191 /* MyViewController.m */; };
 		83A0100D2214188F00A12191 /* ComponentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0100C2214188F00A12191 /* ComponentController.m */; };
 		83A010102214189A00A12191 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0100F2214189A00A12191 /* SetViewController.m */; };
+		DCFC47CEE03DFA306ADFD6E1 /* libPods-SHRMAppDelegate-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B086923F0CEA35DC55E7B025 /* libPods-SHRMAppDelegate-demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRMAppDelegate-demo.debug.xcconfig"; path = "Target Support Files/Pods-SHRMAppDelegate-demo/Pods-SHRMAppDelegate-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHRMAppDelegate-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A00FBC22129F7600A12191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83A00FBD22129F7600A12191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,15 +36,6 @@
 		83A00FC822129F7800A12191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A00FCA22129F7800A12191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A00FCB22129F7800A12191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83A00FD32212A0FE00A12191 /* SHRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppDelegate.h; sourceTree = "<group>"; };
-		83A00FD42212A0FE00A12191 /* SHRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMAppDelegate.m; sourceTree = "<group>"; };
-		83A00FD62212A43B00A12191 /* SHRMAppEventAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppEventAnnotation.h; sourceTree = "<group>"; };
-		83A00FD72212A43B00A12191 /* SHRMAppEventAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMAppEventAnnotation.m; sourceTree = "<group>"; };
-		83A00FD92212A6C500A12191 /* SHRMAppEventModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppEventModuleProtocol.h; sourceTree = "<group>"; };
-		83A00FDA2212A84400A12191 /* SHRMBaseAppEventModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMBaseAppEventModule.h; sourceTree = "<group>"; };
-		83A00FDB2212A84400A12191 /* SHRMBaseAppEventModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMBaseAppEventModule.m; sourceTree = "<group>"; };
-		83A00FDD2212AAAE00A12191 /* SHRMAppEventModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRMAppEventModuleManager.h; sourceTree = "<group>"; };
-		83A00FDE2212AAAF00A12191 /* SHRMAppEventModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRMAppEventModuleManager.m; sourceTree = "<group>"; };
 		83A00FE12212B34D00A12191 /* testMudule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testMudule.h; sourceTree = "<group>"; };
 		83A00FE22212B34D00A12191 /* testMudule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMudule.m; sourceTree = "<group>"; };
 		83A00FE42212C16200A12191 /* testLowLevelModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testLowLevelModule.h; sourceTree = "<group>"; };
@@ -70,6 +59,8 @@
 		83A0100C2214188F00A12191 /* ComponentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentController.m; sourceTree = "<group>"; };
 		83A0100E2214189A00A12191 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
 		83A0100F2214189A00A12191 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		AE27BCFEBAD399ABEDBFC70D /* Pods-SHRMAppDelegate-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRMAppDelegate-demo.release.xcconfig"; path = "Target Support Files/Pods-SHRMAppDelegate-demo/Pods-SHRMAppDelegate-demo.release.xcconfig"; sourceTree = "<group>"; };
+		B086923F0CEA35DC55E7B025 /* libPods-SHRMAppDelegate-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHRMAppDelegate-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFC47CEE03DFA306ADFD6E1 /* libPods-SHRMAppDelegate-demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +80,8 @@
 			children = (
 				83A00FBB22129F7600A12191 /* SHRMAppDelegate-demo */,
 				83A00FBA22129F7600A12191 /* Products */,
+				9D0BEFA860CFB5E7E9415BF2 /* Pods */,
+				8A2D7A747B93FA7CB090862D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +99,6 @@
 				83A010042214181500A12191 /* Bussiness */,
 				83A00FED2214055500A12191 /* Common */,
 				83A00FE02212AF1F00A12191 /* APPEventModule */,
-				83A00FD22212A08000A12191 /* SHRMAppDelegate */,
 				83A00FBC22129F7600A12191 /* AppDelegate.h */,
 				83A00FBD22129F7600A12191 /* AppDelegate.m */,
 				83A00FC222129F7600A12191 /* Main.storyboard */,
@@ -119,22 +112,6 @@
 				83A00FEB2214045400A12191 /* MainView.m */,
 			);
 			path = "SHRMAppDelegate-demo";
-			sourceTree = "<group>";
-		};
-		83A00FD22212A08000A12191 /* SHRMAppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				83A00FD32212A0FE00A12191 /* SHRMAppDelegate.h */,
-				83A00FD42212A0FE00A12191 /* SHRMAppDelegate.m */,
-				83A00FD62212A43B00A12191 /* SHRMAppEventAnnotation.h */,
-				83A00FD72212A43B00A12191 /* SHRMAppEventAnnotation.m */,
-				83A00FD92212A6C500A12191 /* SHRMAppEventModuleProtocol.h */,
-				83A00FDA2212A84400A12191 /* SHRMBaseAppEventModule.h */,
-				83A00FDB2212A84400A12191 /* SHRMBaseAppEventModule.m */,
-				83A00FDD2212AAAE00A12191 /* SHRMAppEventModuleManager.h */,
-				83A00FDE2212AAAF00A12191 /* SHRMAppEventModuleManager.m */,
-			);
-			path = SHRMAppDelegate;
 			sourceTree = "<group>";
 		};
 		83A00FE02212AF1F00A12191 /* APPEventModule */ = {
@@ -193,6 +170,23 @@
 			path = Bussiness;
 			sourceTree = "<group>";
 		};
+		8A2D7A747B93FA7CB090862D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B086923F0CEA35DC55E7B025 /* libPods-SHRMAppDelegate-demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D0BEFA860CFB5E7E9415BF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */,
+				AE27BCFEBAD399ABEDBFC70D /* Pods-SHRMAppDelegate-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "SHRMAppDelegate-demo" */;
 			buildPhases = (
+				476A462DB023C64EA1C3A48B /* [CP] Check Pods Manifest.lock */,
 				83A00FB522129F7600A12191 /* Sources */,
 				83A00FB622129F7600A12191 /* Frameworks */,
 				83A00FB722129F7600A12191 /* Resources */,
@@ -258,15 +253,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		476A462DB023C64EA1C3A48B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHRMAppDelegate-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83A00FB522129F7600A12191 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				83A00FCC22129F7800A12191 /* main.m in Sources */,
-				83A00FD82212A43B00A12191 /* SHRMAppEventAnnotation.m in Sources */,
 				83A00FE32212B34D00A12191 /* testMudule.m in Sources */,
-				83A00FD52212A0FE00A12191 /* SHRMAppDelegate.m in Sources */,
 				83A00FE92212C39300A12191 /* MainViewController.m in Sources */,
 				83A01003221417BD00A12191 /* BaseToolbar.m in Sources */,
 				83A01001221417BD00A12191 /* MainToolbar.m in Sources */,
@@ -276,10 +294,8 @@
 				83A010072214185F00A12191 /* HomeController.m in Sources */,
 				83A0100A2214187000A12191 /* MyViewController.m in Sources */,
 				83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */,
-				83A00FDF2212AAAF00A12191 /* SHRMAppEventModuleManager.m in Sources */,
 				83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */,
 				83A01002221417BD00A12191 /* BaseButton.m in Sources */,
-				83A00FDC2212A84400A12191 /* SHRMBaseAppEventModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +435,7 @@
 		};
 		83A00FD022129F7800A12191 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +453,7 @@
 		};
 		83A00FD122129F7800A12191 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE27BCFEBAD399ABEDBFC70D /* Pods-SHRMAppDelegate-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

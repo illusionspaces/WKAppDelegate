@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006F27A1DD38CFBFFB204951BB3E1BCF /* SHRMAppEventAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E52A49C938EC1486862EAD83F824C9 /* SHRMAppEventAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C05DE8D46512AE07A843E3B956B3A16 /* SHRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8522C40909C156B53D4D1991D15EFAD /* SHRMAppDelegate.m */; };
+		5C6F63F7484D3EDD01908BB5C8172FFD /* SHRMAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A0C23AC707F6A39F6FCBC4DE1BD2A8 /* SHRMAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		693EE1026922AD67BE443871C187266B /* SHRMAppEventModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5064AAD782F8426262C41A3C64438E46 /* SHRMAppEventModuleManager.m */; };
+		8356C70A393FC5D37C91902A8DFA4447 /* SHRMAppDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878E542C17B1F47DA9CD09EDCC9583 /* SHRMAppDelegate-dummy.m */; };
+		8CCBCA348F335C2AECBE16C39A4B6BE8 /* SHRMBaseAppEventModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 9248AA2BC0D0A801A24B84BE94D1A3EB /* SHRMBaseAppEventModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A05E4EE2EA6048CD6676AD4A5DF3BDA8 /* SHRMBaseAppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B381097416B7D8BBA9CA5B0E9746EB /* SHRMBaseAppEventModule.m */; };
+		B990F67807EC5E8AC3921E0216E7E633 /* Pods-SHRMAppDelegate-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B01C08DFBB81540B0DFFAC0AC8FEAA /* Pods-SHRMAppDelegate-demo-dummy.m */; };
+		CC1BCA412591A5C789821C7B31085B4C /* SHRMAppEventModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACF75DB93DB6759AF5E2B1478A51C2C /* SHRMAppEventModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D291A48C76C8D6CACA8ABE312AE2F527 /* SHRMAppEventModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB32025D56D73A1AEDEAE0DABF66E59 /* SHRMAppEventModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE4C0B0BB71AD1B1BBA89885D4D2AC53 /* SHRMAppEventAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10548378C8820D22D0E1171757F2741D /* SHRMAppEventAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6C7E4C9F485657AC1EA08D5F3F39E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED23E2CA5F9A6B230E24CD959F370B9E;
+			remoteInfo = SHRMAppDelegate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ACF75DB93DB6759AF5E2B1478A51C2C /* SHRMAppEventModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventModuleManager.h; path = SHRMAppDelegate/SHRMAppEventModuleManager.h; sourceTree = "<group>"; };
+		10548378C8820D22D0E1171757F2741D /* SHRMAppEventAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppEventAnnotation.m; path = SHRMAppDelegate/SHRMAppEventAnnotation.m; sourceTree = "<group>"; };
+		4176937127FEA303C748F1AE87537819 /* Pods-SHRMAppDelegate-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRMAppDelegate-demo.release.xcconfig"; sourceTree = "<group>"; };
+		4EB32025D56D73A1AEDEAE0DABF66E59 /* SHRMAppEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventModuleProtocol.h; path = SHRMAppDelegate/SHRMAppEventModuleProtocol.h; sourceTree = "<group>"; };
+		5064AAD782F8426262C41A3C64438E46 /* SHRMAppEventModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppEventModuleManager.m; path = SHRMAppDelegate/SHRMAppEventModuleManager.m; sourceTree = "<group>"; };
+		6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHRMAppDelegate.xcconfig; sourceTree = "<group>"; };
+		65878E542C17B1F47DA9CD09EDCC9583 /* SHRMAppDelegate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHRMAppDelegate-dummy.m"; sourceTree = "<group>"; };
+		71E52A49C938EC1486862EAD83F824C9 /* SHRMAppEventAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppEventAnnotation.h; path = SHRMAppDelegate/SHRMAppEventAnnotation.h; sourceTree = "<group>"; };
+		78B08DFA95991147A4F0FD82FD7D2327 /* libSHRMAppDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSHRMAppDelegate.a; path = libSHRMAppDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248AA2BC0D0A801A24B84BE94D1A3EB /* SHRMBaseAppEventModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMBaseAppEventModule.h; path = SHRMAppDelegate/SHRMBaseAppEventModule.h; sourceTree = "<group>"; };
+		92AE78D5B6A4908D8EAB5D8591010FE8 /* Pods-SHRMAppDelegate-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHRMAppDelegate-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94B01C08DFBB81540B0DFFAC0AC8FEAA /* Pods-SHRMAppDelegate-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHRMAppDelegate-demo-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8522C40909C156B53D4D1991D15EFAD /* SHRMAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMAppDelegate.m; path = SHRMAppDelegate/SHRMAppDelegate.m; sourceTree = "<group>"; };
+		CE3A6E6A71BF1A89F0B3723E1280B86A /* Pods-SHRMAppDelegate-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHRMAppDelegate-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD40DE3D9B2471FB74686A071FB2B16A /* SHRMAppDelegate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHRMAppDelegate-prefix.pch"; sourceTree = "<group>"; };
+		E9B381097416B7D8BBA9CA5B0E9746EB /* SHRMBaseAppEventModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHRMBaseAppEventModule.m; path = SHRMAppDelegate/SHRMBaseAppEventModule.m; sourceTree = "<group>"; };
+		F3A0C23AC707F6A39F6FCBC4DE1BD2A8 /* SHRMAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHRMAppDelegate.h; path = SHRMAppDelegate/SHRMAppDelegate.h; sourceTree = "<group>"; };
+		F9A2E0584902B3F890F186A29273F271 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHRMAppDelegate-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		FAAABECC22981B4204897FB07C75D365 /* libPods-SHRMAppDelegate-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SHRMAppDelegate-demo.a"; path = "libPods-SHRMAppDelegate-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315631D0B873727EE451FAF361A08F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2321817CBCB5522C2E94660DE68689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37FDBC1FEAEB3CD8A055F9B11C5C26F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF29C34A60DADF06E632389484C79B7E /* Pods-SHRMAppDelegate-demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55C61648C8CD1B08C6E18404C959CB93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61547003712B01ADFBAB41BC4A71D668 /* SHRMAppDelegate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61547003712B01ADFBAB41BC4A71D668 /* SHRMAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0C23AC707F6A39F6FCBC4DE1BD2A8 /* SHRMAppDelegate.h */,
+				B8522C40909C156B53D4D1991D15EFAD /* SHRMAppDelegate.m */,
+				71E52A49C938EC1486862EAD83F824C9 /* SHRMAppEventAnnotation.h */,
+				10548378C8820D22D0E1171757F2741D /* SHRMAppEventAnnotation.m */,
+				0ACF75DB93DB6759AF5E2B1478A51C2C /* SHRMAppEventModuleManager.h */,
+				5064AAD782F8426262C41A3C64438E46 /* SHRMAppEventModuleManager.m */,
+				4EB32025D56D73A1AEDEAE0DABF66E59 /* SHRMAppEventModuleProtocol.h */,
+				9248AA2BC0D0A801A24B84BE94D1A3EB /* SHRMBaseAppEventModule.h */,
+				E9B381097416B7D8BBA9CA5B0E9746EB /* SHRMBaseAppEventModule.m */,
+				9696206AD5705B7FACD4194E0A3F3C33 /* Support Files */,
+			);
+			name = SHRMAppDelegate;
+			path = SHRMAppDelegate;
+			sourceTree = "<group>";
+		};
+		9696206AD5705B7FACD4194E0A3F3C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */,
+				65878E542C17B1F47DA9CD09EDCC9583 /* SHRMAppDelegate-dummy.m */,
+				DD40DE3D9B2471FB74686A071FB2B16A /* SHRMAppDelegate-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SHRMAppDelegate";
+			sourceTree = "<group>";
+		};
+		CDAC98B4000C8EED6632BD41D51EE970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAABECC22981B4204897FB07C75D365 /* libPods-SHRMAppDelegate-demo.a */,
+				78B08DFA95991147A4F0FD82FD7D2327 /* libSHRMAppDelegate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				55C61648C8CD1B08C6E18404C959CB93 /* Pods */,
+				CDAC98B4000C8EED6632BD41D51EE970 /* Products */,
+				37FDBC1FEAEB3CD8A055F9B11C5C26F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF29C34A60DADF06E632389484C79B7E /* Pods-SHRMAppDelegate-demo */ = {
+			isa = PBXGroup;
+			children = (
+				92AE78D5B6A4908D8EAB5D8591010FE8 /* Pods-SHRMAppDelegate-demo-acknowledgements.markdown */,
+				CE3A6E6A71BF1A89F0B3723E1280B86A /* Pods-SHRMAppDelegate-demo-acknowledgements.plist */,
+				94B01C08DFBB81540B0DFFAC0AC8FEAA /* Pods-SHRMAppDelegate-demo-dummy.m */,
+				F9A2E0584902B3F890F186A29273F271 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */,
+				4176937127FEA303C748F1AE87537819 /* Pods-SHRMAppDelegate-demo.release.xcconfig */,
+			);
+			name = "Pods-SHRMAppDelegate-demo";
+			path = "Target Support Files/Pods-SHRMAppDelegate-demo";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54152DB0F638C69AD75010B9075E09AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F63F7484D3EDD01908BB5C8172FFD /* SHRMAppDelegate.h in Headers */,
+				006F27A1DD38CFBFFB204951BB3E1BCF /* SHRMAppEventAnnotation.h in Headers */,
+				CC1BCA412591A5C789821C7B31085B4C /* SHRMAppEventModuleManager.h in Headers */,
+				D291A48C76C8D6CACA8ABE312AE2F527 /* SHRMAppEventModuleProtocol.h in Headers */,
+				8CCBCA348F335C2AECBE16C39A4B6BE8 /* SHRMBaseAppEventModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F475E027BDC1FB1C2EB420C2A4C5E4AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5626E9E2ACAFB91D2885D2A5264AB58E /* Pods-SHRMAppDelegate-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DA0A645CBD7B02355F2CF8F09FBD8F /* Build configuration list for PBXNativeTarget "Pods-SHRMAppDelegate-demo" */;
+			buildPhases = (
+				F475E027BDC1FB1C2EB420C2A4C5E4AF /* Headers */,
+				8530920D0B18FAB70CF1769A3FD18348 /* Sources */,
+				EF2321817CBCB5522C2E94660DE68689 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451A482AE8A622169AD430CFBFA0D784 /* PBXTargetDependency */,
+			);
+			name = "Pods-SHRMAppDelegate-demo";
+			productName = "Pods-SHRMAppDelegate-demo";
+			productReference = FAAABECC22981B4204897FB07C75D365 /* libPods-SHRMAppDelegate-demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED23E2CA5F9A6B230E24CD959F370B9E /* SHRMAppDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BD4E54E0E17F4401A83DE0F1E695ED /* Build configuration list for PBXNativeTarget "SHRMAppDelegate" */;
+			buildPhases = (
+				54152DB0F638C69AD75010B9075E09AC /* Headers */,
+				DC47939295BCB2497BD586E36DF20ADC /* Sources */,
+				315631D0B873727EE451FAF361A08F9B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHRMAppDelegate;
+			productName = SHRMAppDelegate;
+			productReference = 78B08DFA95991147A4F0FD82FD7D2327 /* libSHRMAppDelegate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CDAC98B4000C8EED6632BD41D51EE970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5626E9E2ACAFB91D2885D2A5264AB58E /* Pods-SHRMAppDelegate-demo */,
+				ED23E2CA5F9A6B230E24CD959F370B9E /* SHRMAppDelegate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8530920D0B18FAB70CF1769A3FD18348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B990F67807EC5E8AC3921E0216E7E633 /* Pods-SHRMAppDelegate-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC47939295BCB2497BD586E36DF20ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356C70A393FC5D37C91902A8DFA4447 /* SHRMAppDelegate-dummy.m in Sources */,
+				5C05DE8D46512AE07A843E3B956B3A16 /* SHRMAppDelegate.m in Sources */,
+				FE4C0B0BB71AD1B1BBA89885D4D2AC53 /* SHRMAppEventAnnotation.m in Sources */,
+				693EE1026922AD67BE443871C187266B /* SHRMAppEventModuleManager.m in Sources */,
+				A05E4EE2EA6048CD6676AD4A5DF3BDA8 /* SHRMBaseAppEventModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451A482AE8A622169AD430CFBFA0D784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHRMAppDelegate;
+			target = ED23E2CA5F9A6B230E24CD959F370B9E /* SHRMAppDelegate */;
+			targetProxy = F6C7E4C9F485657AC1EA08D5F3F39E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25BEFD2A0281DB03FE6E693B0AB3F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SHRMAppDelegate/SHRMAppDelegate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SHRMAppDelegate;
+				PRODUCT_NAME = SHRMAppDelegate;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4093433A309EFE160336AC736594AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4BA0624E3F999D3266A204F8D242E4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6529E27C3A9D3D5C63B55FDCF869DCAB /* SHRMAppDelegate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SHRMAppDelegate/SHRMAppDelegate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SHRMAppDelegate;
+				PRODUCT_NAME = SHRMAppDelegate;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51A455B1AFC9DD321241E46B437DC211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A2E0584902B3F890F186A29273F271 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924D56B1D59CD3049300EAEEA256114E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9A9E0BCA3DF2BEA8A3C5DE01C7D84464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4176937127FEA303C748F1AE87537819 /* Pods-SHRMAppDelegate-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4093433A309EFE160336AC736594AB22 /* Debug */,
+				924D56B1D59CD3049300EAEEA256114E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DA0A645CBD7B02355F2CF8F09FBD8F /* Build configuration list for PBXNativeTarget "Pods-SHRMAppDelegate-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A455B1AFC9DD321241E46B437DC211 /* Debug */,
+				9A9E0BCA3DF2BEA8A3C5DE01C7D84464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BD4E54E0E17F4401A83DE0F1E695ED /* Build configuration list for PBXNativeTarget "SHRMAppDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BEFD2A0281DB03FE6E693B0AB3F384 /* Debug */,
+				4BA0624E3F999D3266A204F8D242E4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
