@@ -7,7 +7,7 @@
 ![ARC](https://img.shields.io/badge/ARC-orange.svg)
 
 
-#### 注：在0.0.3版本引入[NSObject+AppEventModule](- `NSObject+AppEventModule`)分类，用以解决`NSObject`的`performSelector:`函数最多支持2个参数的问题。
+#### 注：在0.0.3版本引入`NSObject+AppEventModule`分类，用以解决`NSObject`的`performSelector:`函数最多支持2个参数的问题。
 
 
 ## Link
