@@ -6,6 +6,10 @@
 ![](https://img.shields.io/badge/language-objc-orange.svg)
 ![ARC](https://img.shields.io/badge/ARC-orange.svg)
 
+
+#### 注：在0.0.3版本引入[NSObject+AppEventModule](- `NSObject+AppEventModule`)分类，用以解决`NSObject`的`performSelector:`函数最多支持2个参数的问题。
+
+
 ## Link
 * Blog : [AppDelegate的模块化+瘦身](https://juejin.im/post/5c62caf6e51d457fc905dd75)
 
@@ -70,6 +74,7 @@ self.window.rootViewController = [[MainViewController alloc] init];
 - `SHRMAppEventModuleManager`是模块的管理类，管理着所有注册过的模块。
 - `SHRMBaseAppEventModule`是所有模块需要继承的基类，为所有模块提供公共方法，包括模块执行顺序，模块生命周期管理等，可自行扩充。
 - `SHRMAppEventAnnotation`为模块注册专用类，每个模块都需要注册的，为什么注册？不注册怎么管理呢。
+- `NSObject+AppEventModule`为NSObject分类，扩充了`NSObject`的`performSelector:`函数，用以支持多参传递。
 
 ### 1.`AppDelegate`继承`SHRMAppDelegate`，让`SHRMAppDelegate`来接管App的生命周期函数。
 ### 2.创建插件，继承`SHRMBaseAppEventModule`：
