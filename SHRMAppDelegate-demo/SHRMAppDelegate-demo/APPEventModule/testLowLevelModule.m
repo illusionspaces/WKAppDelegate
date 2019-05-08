@@ -7,7 +7,6 @@
 //
 
 #import "testLowLevelModule.h"
-#import "SHRMAppEventAnnotation.h"
 
 SHRMAppEventMod(testLowLevelModule)
 

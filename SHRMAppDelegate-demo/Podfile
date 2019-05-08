@@ -3,6 +3,6 @@
 
 target 'SHRMAppDelegate-demo' do
   
-  pod 'SHRMAppDelegate', '~> 0.0.1'
+  pod 'SHRMAppDelegate', '~> 0.0.2'
 
 end
