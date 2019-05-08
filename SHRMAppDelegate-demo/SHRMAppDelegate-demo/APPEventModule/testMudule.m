@@ -7,7 +7,6 @@
 //
 
 #import "testMudule.h"
-#import "SHRMAppEventAnnotation.h"
 
 SHRMAppEventMod(testMudule)
 
