@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8B04952282CADA00A7EB06 /* testRemoteNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B04942282CADA00A7EB06 /* testRemoteNotificationModule.m */; };
 		83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FBD22129F7600A12191 /* AppDelegate.m */; };
 		83A00FC422129F7600A12191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC222129F7600A12191 /* Main.storyboard */; };
 		83A00FC622129F7800A12191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC522129F7800A12191 /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8B04932282CADA00A7EB06 /* testRemoteNotificationModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testRemoteNotificationModule.h; sourceTree = "<group>"; };
+		0A8B04942282CADA00A7EB06 /* testRemoteNotificationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRemoteNotificationModule.m; sourceTree = "<group>"; };
 		2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRMAppDelegate-demo.debug.xcconfig"; path = "Target Support Files/Pods-SHRMAppDelegate-demo/Pods-SHRMAppDelegate-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHRMAppDelegate-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A00FBC22129F7600A12191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				83A00FE22212B34D00A12191 /* testMudule.m */,
 				83A00FE42212C16200A12191 /* testLowLevelModule.h */,
 				83A00FE52212C16200A12191 /* testLowLevelModule.m */,
+				0A8B04932282CADA00A7EB06 /* testRemoteNotificationModule.h */,
+				0A8B04942282CADA00A7EB06 /* testRemoteNotificationModule.m */,
 			);
 			path = APPEventModule;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				83A00FEC2214045400A12191 /* MainView.m in Sources */,
 				83A010072214185F00A12191 /* HomeController.m in Sources */,
 				83A0100A2214187000A12191 /* MyViewController.m in Sources */,
+				0A8B04952282CADA00A7EB06 /* testRemoteNotificationModule.m in Sources */,
 				83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */,
 				83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */,
 				83A01002221417BD00A12191 /* BaseButton.m in Sources */,

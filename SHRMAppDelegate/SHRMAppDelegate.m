@@ -8,6 +8,7 @@
 
 #import "SHRMAppDelegate.h"
 #import "SHRMAppEventModuleManager.h"
+#import "NSObject+AppEventModule.h"
 
 @implementation SHRMAppDelegate
 
@@ -51,7 +52,56 @@
     }];
 }
 
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+API_AVAILABLE(ios(7.0)){
+    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:didReceiveRemoteNotification:fetchCompletionHandler:)
+                                                              Complete:^(id module, SEL sel) {
+         [module performSelector:sel
+                      withObject:application
+                      withObject:userInfo
+                      withObject:completionHandler];
+     }];
+}
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    __block BOOL result = YES;
+    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:
+                                                                              openURL:
+                                                                              sourceApplication:
+                                                                              annotation:)
+                                                           Complete:^(id module, SEL sel)
+     {
+         NSNumber *moduleRes = [module performSelector:sel
+                                            withObject:application
+                                            withObject:url
+                                            withObject:sourceApplication
+                                            withObject:annotation];
+         result = [moduleRes boolValue];
+     }];
+    
+    return result;
+}
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_8_4
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    __block BOOL result = YES;
+    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:
+                                                                              openURL:
+                                                                              options:)
+                                                           Complete:^(id module, SEL sel)
+     {
+         NSNumber *moduleRes = [module performSelector:sel
+                                            withObject:app
+                                            withObject:url
+                                            withObject:options];
+         result = [moduleRes boolValue];
+     }];
+    
+    return result;
+}
+#endif
 
 
 @end

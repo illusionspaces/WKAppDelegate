@@ -2,7 +2,7 @@ PODS:
   - SHRMAppDelegate (0.0.2)
 
 DEPENDENCIES:
-  - SHRMAppDelegate (~> 0.0.2)
+  - SHRMAppDelegate
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -11,6 +11,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   SHRMAppDelegate: d07bcd9f9e51c235e15862e593eaafdae1678418
 
-PODFILE CHECKSUM: fae88fd24bf9ce6a14bebc3b5af5eab7b6310d0c
+PODFILE CHECKSUM: 1c0011c2202135ffb7fada3a1a0c8d0c4522dd06
 
 COCOAPODS: 1.6.1
