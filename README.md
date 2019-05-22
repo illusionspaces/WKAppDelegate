@@ -15,8 +15,7 @@
 
 ## 介绍
 **一个对APPDelegate深度解耦的逻辑，教你实现APPDelegate模块化拆分，原本上千行的代码可以简化到10行内，使用方便，极少的代码浸入。支持iOS6+**
-
-[](https://user-gold-cdn.xitu.io/2019/2/12/168e20a0d3b1bb53?imageslim)
+![image text](https://user-gold-cdn.xitu.io/2019/2/12/168e20a0d3b1bb53?imageslim)
 
 **AppDelegate简化后的样子：**
 
