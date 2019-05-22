@@ -47,7 +47,7 @@ self.window.rootViewController = [[MainViewController alloc] init];
 
 ## 特性
 
-- 搭积木式设计。
+- 搭积木式设计，业务插件化分离。
 - `AppDelegate.m`内的代码精简到10行内。
 - 原有的功能模块拆分为单独的子模块，模块独立，模块间无耦合。
 - 每个模块都拥有自己的生命周期，目前支持模块的初始化->销毁。
@@ -114,7 +114,68 @@ NSLog(@"testMudule init");
 ```
 **插件概念：每个插件都为独立的业务，比如程序启动后的数据库处理、定位处理等都可以定义为一个插件，让插件继承`SHRMBaseAppEventModule`插件就会被管理。如果想在程序启动的时候执行该插件就在该插件里面重写`didFinishLaunchingWithOptions:`即可，如上。如果想在程序进入后台执行该插件的一些业务那么只需要重写`applicationDidEnterBackground:`即可，然后在该函数里面进行业务处理。**
 
-### 3.详细使用请参照demo，如有疑问欢迎issue，欢迎star。
+### 3.如果需要自己实现App周期函数只需要在你的AppDelegate重写即可。
+
+### 4.NSObject+AppEventModule分类
+
+提供`performSelector:`函数传递多个参数的解决方案，基于`NSMethodSignature`和`NSInvocation`实现。核心代码如下：
+
+```objc
+- (id)performSelector:(SEL)selector
+           withObject:(id)p1
+           withObject:(id)p2
+           withObject:(id)p3 {
+    NSMethodSignature *sig = [self methodSignatureForSelector:selector];
+    if (sig) {
+        NSInvocation* invo = [NSInvocation invocationWithMethodSignature:sig];
+        [invo setTarget:self];
+        [invo setSelector:selector];
+        [invo setArgument:&p1 atIndex:2];
+        [invo setArgument:&p2 atIndex:3];
+        [invo setArgument:&p3 atIndex:4];
+        [invo invoke];
+        if (sig.methodReturnLength) {
+            return [self handleReturnType:sig invo:invo];
+        } else {
+            return nil;
+        }
+    } else {
+        return nil;
+    }
+}
+```
+
+```objc
+- (id)handleReturnType:(NSMethodSignature *)sig invo:(NSInvocation *)aInvo
+{
+    int booResult = strcmp([sig methodReturnType], @encode(BOOL));
+    int floatResult = strcmp([sig methodReturnType], @encode(float));
+    int intResult = strcmp([sig methodReturnType], @encode(int));
+    
+    id anObject = nil;
+    if (booResult == 0)
+    {
+        BOOL result;
+        [aInvo getReturnValue:&result];
+        anObject = [NSNumber numberWithBool:result];
+    }
+    else if (floatResult == 0)
+    {
+        float result;
+        [aInvo getReturnValue:&result];
+        anObject = [NSNumber numberWithFloat:result];
+    }
+    else if (intResult)
+    {
+        int result;
+        [aInvo getReturnValue:&result];
+        anObject = [NSNumber numberWithInt:result];
+    }
+    return anObject;
+}
+```
+
+### 5.详细使用请参照demo，如有疑问欢迎issue，欢迎star。
 
 ## License
 
