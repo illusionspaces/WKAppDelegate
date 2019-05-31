@@ -60,7 +60,7 @@ self.window.rootViewController = [[MainViewController alloc] init];
 ## 安装
 
 ### 1.CocoaPods
-1. 在 Podfile 中添加 `pod 'SHRMAppDelegate', '~> 0.0.2'`。
+1. 在 Podfile 中添加 `pod 'SHRMAppDelegate', '~> 0.0.3'`。
 2. 执行 `pod install` 或 `pod update`。
 3. 在AppDelegate中导入 `<SHRMAppDelegate.h>`并继承。
 
