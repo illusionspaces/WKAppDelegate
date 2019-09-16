@@ -8,11 +8,11 @@
 
 
 #### 注：在`v0.0.3`版本引入`NSObject+AppEventModule`分类，用以解决`NSObject`的`performSelector:`函数最多支持2个参数的问题。
-#### 注：0.0.5版本进行了prefix变更，SHRM变更为WK。
+#### 注：`v0.0.7`版本进行了prefix变更，`SHRM`变更为`WK`。
 
 
 ## Link
-* Blog : [AppDelegate的模块化+瘦身](https://juejin.im/post/5c62caf6e51d457fc905dd75)
+* Blog : [iOS 代码优化 -- AppDelegate模块化瘦身](https://juejin.im/post/5c62caf6e51d457fc905dd75)
 
 ## 介绍
 **一个对APPDelegate深度解耦的逻辑，教你实现APPDelegate模块化拆分，原本上千行的代码可以简化到10行内，使用方便，极少的代码浸入。支持iOS6+**
