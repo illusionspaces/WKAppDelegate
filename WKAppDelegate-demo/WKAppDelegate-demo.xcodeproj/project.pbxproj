@@ -31,7 +31,7 @@
 		0A8B04932282CADA00A7EB06 /* testRemoteNotificationModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testRemoteNotificationModule.h; sourceTree = "<group>"; };
 		0A8B04942282CADA00A7EB06 /* testRemoteNotificationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRemoteNotificationModule.m; sourceTree = "<group>"; };
 		2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRMAppDelegate-demo.debug.xcconfig"; path = "Target Support Files/Pods-SHRMAppDelegate-demo/Pods-SHRMAppDelegate-demo.debug.xcconfig"; sourceTree = "<group>"; };
-		83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHRMAppDelegate-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A00FB922129F7600A12191 /* WKAppDelegate-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKAppDelegate-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A00FBC22129F7600A12191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83A00FBD22129F7600A12191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83A00FC322129F7600A12191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		83A00FB022129F7600A12191 = {
 			isa = PBXGroup;
 			children = (
-				83A00FBB22129F7600A12191 /* SHRMAppDelegate-demo */,
+				83A00FBB22129F7600A12191 /* WKAppDelegate-demo */,
 				83A00FBA22129F7600A12191 /* Products */,
 				9D0BEFA860CFB5E7E9415BF2 /* Pods */,
 				8A2D7A747B93FA7CB090862D /* Frameworks */,
@@ -91,12 +91,12 @@
 		83A00FBA22129F7600A12191 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */,
+				83A00FB922129F7600A12191 /* WKAppDelegate-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83A00FBB22129F7600A12191 /* SHRMAppDelegate-demo */ = {
+		83A00FBB22129F7600A12191 /* WKAppDelegate-demo */ = {
 			isa = PBXGroup;
 			children = (
 				83A010042214181500A12191 /* Bussiness */,
@@ -114,7 +114,7 @@
 				83A00FEA2214045400A12191 /* MainView.h */,
 				83A00FEB2214045400A12191 /* MainView.m */,
 			);
-			path = "SHRMAppDelegate-demo";
+			path = "WKAppDelegate-demo";
 			sourceTree = "<group>";
 		};
 		83A00FE02212AF1F00A12191 /* APPEventModule */ = {
@@ -195,9 +195,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83A00FB822129F7600A12191 /* SHRMAppDelegate-demo */ = {
+		83A00FB822129F7600A12191 /* WKAppDelegate-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "SHRMAppDelegate-demo" */;
+			buildConfigurationList = 83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "WKAppDelegate-demo" */;
 			buildPhases = (
 				476A462DB023C64EA1C3A48B /* [CP] Check Pods Manifest.lock */,
 				83A00FB522129F7600A12191 /* Sources */,
@@ -208,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = "SHRMAppDelegate-demo";
+			name = "WKAppDelegate-demo";
 			productName = APPEventModule;
-			productReference = 83A00FB922129F7600A12191 /* SHRMAppDelegate-demo.app */;
+			productReference = 83A00FB922129F7600A12191 /* WKAppDelegate-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83A00FB422129F7600A12191 /* Build configuration list for PBXProject "SHRMAppDelegate-demo" */;
+			buildConfigurationList = 83A00FB422129F7600A12191 /* Build configuration list for PBXProject "WKAppDelegate-demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,7 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83A00FB822129F7600A12191 /* SHRMAppDelegate-demo */,
+				83A00FB822129F7600A12191 /* WKAppDelegate-demo */,
 			);
 		};
 /* End PBXProject section */
@@ -446,7 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 929467FPP6;
-				INFOPLIST_FILE = "SHRMAppDelegate-demo/Info.plist";
+				INFOPLIST_FILE = "WKAppDelegate-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 929467FPP6;
-				INFOPLIST_FILE = "SHRMAppDelegate-demo/Info.plist";
+				INFOPLIST_FILE = "WKAppDelegate-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83A00FB422129F7600A12191 /* Build configuration list for PBXProject "SHRMAppDelegate-demo" */ = {
+		83A00FB422129F7600A12191 /* Build configuration list for PBXProject "WKAppDelegate-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A00FCD22129F7800A12191 /* Debug */,
@@ -487,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "SHRMAppDelegate-demo" */ = {
+		83A00FCF22129F7800A12191 /* Build configuration list for PBXNativeTarget "WKAppDelegate-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A00FD022129F7800A12191 /* Debug */,

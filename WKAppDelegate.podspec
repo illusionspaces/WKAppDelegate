@@ -15,13 +15,13 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SHRMAppDelegate"
-  spec.version      = "0.0.3"
+  spec.name         = "WKAppDelegate"
+  spec.version      = "0.0.4"
   spec.summary      = "一个对APPDelegate深度解耦的逻辑."
 
  
 
-  spec.homepage     = "https://github.com/GitWangKai/SHRMAppDelegate"
+  spec.homepage     = "https://github.com/GitWangKai/WKAppDelegate"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -73,7 +73,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/GitWangKai/SHRMAppDelegate.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/GitWangKai/WKAppDelegate.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SHRMAppDelegate/**/*.{h,m}"
+  spec.source_files  = "WKAppDelegate/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
