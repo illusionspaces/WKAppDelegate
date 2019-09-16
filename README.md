@@ -61,7 +61,7 @@ self.window.rootViewController = [[MainViewController alloc] init];
 ## 安装
 
 ### 1.CocoaPods
-1. 在 Podfile 中添加 `pod 'WKAppDelegate', '~> 0.0.3'`。
+1. 在 Podfile 中添加 `pod 'WKAppDelegate', '~> 0.0.7'`。
 2. 执行 `pod install` 或 `pod update`。
 3. 在AppDelegate中导入 `<WKAppDelegate.h>`并继承。
 
