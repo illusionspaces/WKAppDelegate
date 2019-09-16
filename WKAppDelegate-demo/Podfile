@@ -3,6 +3,6 @@
 
 target 'WKAppDelegate-demo' do
   
-  pod 'WKAppDelegate'
+
 
 end

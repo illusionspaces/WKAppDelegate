@@ -8,7 +8,7 @@
 
 #import "testMudule.h"
 
-SHRMAppEventMod(testMudule)
+WKAppEventMod(testMudule)
 
 @implementation testMudule
 

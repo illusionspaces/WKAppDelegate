@@ -1,6 +1,6 @@
 //
 //  testRemoteNotificationModule.m
-//  SHRMAppDelegate-demo
+//  WKAppDelegate-demo
 //
 //  Created by Kevin on 2019/5/8.
 //  Copyright © 2019 王凯. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "testRemoteNotificationModule.h"
 
-SHRMAppEventMod(testRemoteNotificationModule)
+WKAppEventMod(testRemoteNotificationModule)
 
 @implementation testRemoteNotificationModule
 

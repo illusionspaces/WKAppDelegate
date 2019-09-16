@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHRMAppDelegate.h"
+#import "WKAppDelegate.h"
 
-@interface AppDelegate : SHRMAppDelegate
+@interface AppDelegate : WKAppDelegate
 
 @property (strong, nonatomic) UIWindow *window;
 

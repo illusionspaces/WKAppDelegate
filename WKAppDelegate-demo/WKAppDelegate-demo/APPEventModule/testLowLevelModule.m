@@ -8,7 +8,7 @@
 
 #import "testLowLevelModule.h"
 
-SHRMAppEventMod(testLowLevelModule)
+WKAppEventMod(testLowLevelModule)
 
 @implementation testLowLevelModule
 

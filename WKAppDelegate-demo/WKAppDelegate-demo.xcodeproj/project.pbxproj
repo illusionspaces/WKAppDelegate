@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7648DC232F3ABF006C6FFA /* NSObject+AppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7648D1232F3ABF006C6FFA /* NSObject+AppEventModule.m */; };
+		0A7648DD232F3ABF006C6FFA /* WKAppEventModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7648D5232F3ABF006C6FFA /* WKAppEventModuleManager.m */; };
+		0A7648DE232F3ABF006C6FFA /* WKBaseAppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7648D7232F3ABF006C6FFA /* WKBaseAppEventModule.m */; };
+		0A7648DF232F3ABF006C6FFA /* WKAppEventAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7648D8232F3ABF006C6FFA /* WKAppEventAnnotation.m */; };
+		0A7648E0232F3ABF006C6FFA /* WKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7648DA232F3ABF006C6FFA /* WKAppDelegate.m */; };
 		0A8B04952282CADA00A7EB06 /* testRemoteNotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B04942282CADA00A7EB06 /* testRemoteNotificationModule.m */; };
+		326F369F262401F90AEBD0F0 /* libPods-WKAppDelegate-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098C7D922B51540EF2379631 /* libPods-WKAppDelegate-demo.a */; };
 		83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A00FBD22129F7600A12191 /* AppDelegate.m */; };
 		83A00FC422129F7600A12191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC222129F7600A12191 /* Main.storyboard */; };
 		83A00FC622129F7800A12191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A00FC522129F7800A12191 /* Assets.xcassets */; };
@@ -24,13 +30,23 @@
 		83A0100A2214187000A12191 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A010092214187000A12191 /* MyViewController.m */; };
 		83A0100D2214188F00A12191 /* ComponentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0100C2214188F00A12191 /* ComponentController.m */; };
 		83A010102214189A00A12191 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0100F2214189A00A12191 /* SetViewController.m */; };
-		DCFC47CEE03DFA306ADFD6E1 /* libPods-SHRMAppDelegate-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B086923F0CEA35DC55E7B025 /* libPods-SHRMAppDelegate-demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098C7D922B51540EF2379631 /* libPods-WKAppDelegate-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKAppDelegate-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7648D1232F3ABF006C6FFA /* NSObject+AppEventModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AppEventModule.m"; sourceTree = "<group>"; };
+		0A7648D2232F3ABF006C6FFA /* WKAppEventAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAppEventAnnotation.h; sourceTree = "<group>"; };
+		0A7648D3232F3ABF006C6FFA /* WKBaseAppEventModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseAppEventModule.h; sourceTree = "<group>"; };
+		0A7648D4232F3ABF006C6FFA /* WKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAppDelegate.h; sourceTree = "<group>"; };
+		0A7648D5232F3ABF006C6FFA /* WKAppEventModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAppEventModuleManager.m; sourceTree = "<group>"; };
+		0A7648D6232F3ABF006C6FFA /* NSObject+AppEventModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AppEventModule.h"; sourceTree = "<group>"; };
+		0A7648D7232F3ABF006C6FFA /* WKBaseAppEventModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseAppEventModule.m; sourceTree = "<group>"; };
+		0A7648D8232F3ABF006C6FFA /* WKAppEventAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAppEventAnnotation.m; sourceTree = "<group>"; };
+		0A7648D9232F3ABF006C6FFA /* WKAppEventModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAppEventModuleManager.h; sourceTree = "<group>"; };
+		0A7648DA232F3ABF006C6FFA /* WKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAppDelegate.m; sourceTree = "<group>"; };
+		0A7648DB232F3ABF006C6FFA /* WKAppEventModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAppEventModuleProtocol.h; sourceTree = "<group>"; };
 		0A8B04932282CADA00A7EB06 /* testRemoteNotificationModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testRemoteNotificationModule.h; sourceTree = "<group>"; };
 		0A8B04942282CADA00A7EB06 /* testRemoteNotificationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRemoteNotificationModule.m; sourceTree = "<group>"; };
-		2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRMAppDelegate-demo.debug.xcconfig"; path = "Target Support Files/Pods-SHRMAppDelegate-demo/Pods-SHRMAppDelegate-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		83A00FB922129F7600A12191 /* WKAppDelegate-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKAppDelegate-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A00FBC22129F7600A12191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83A00FBD22129F7600A12191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,8 +78,8 @@
 		83A0100C2214188F00A12191 /* ComponentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentController.m; sourceTree = "<group>"; };
 		83A0100E2214189A00A12191 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
 		83A0100F2214189A00A12191 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
-		AE27BCFEBAD399ABEDBFC70D /* Pods-SHRMAppDelegate-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHRMAppDelegate-demo.release.xcconfig"; path = "Target Support Files/Pods-SHRMAppDelegate-demo/Pods-SHRMAppDelegate-demo.release.xcconfig"; sourceTree = "<group>"; };
-		B086923F0CEA35DC55E7B025 /* libPods-SHRMAppDelegate-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHRMAppDelegate-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DB89397148A3D0A5BB66A8 /* Pods-WKAppDelegate-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKAppDelegate-demo.debug.xcconfig"; path = "Target Support Files/Pods-WKAppDelegate-demo/Pods-WKAppDelegate-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3875AB90B1FB313E3327EF5 /* Pods-WKAppDelegate-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKAppDelegate-demo.release.xcconfig"; path = "Target Support Files/Pods-WKAppDelegate-demo/Pods-WKAppDelegate-demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +87,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCFC47CEE03DFA306ADFD6E1 /* libPods-SHRMAppDelegate-demo.a in Frameworks */,
+				326F369F262401F90AEBD0F0 /* libPods-WKAppDelegate-demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7648D0232F3ABF006C6FFA /* WKAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A7648D1232F3ABF006C6FFA /* NSObject+AppEventModule.m */,
+				0A7648D2232F3ABF006C6FFA /* WKAppEventAnnotation.h */,
+				0A7648D3232F3ABF006C6FFA /* WKBaseAppEventModule.h */,
+				0A7648D4232F3ABF006C6FFA /* WKAppDelegate.h */,
+				0A7648D5232F3ABF006C6FFA /* WKAppEventModuleManager.m */,
+				0A7648D6232F3ABF006C6FFA /* NSObject+AppEventModule.h */,
+				0A7648D7232F3ABF006C6FFA /* WKBaseAppEventModule.m */,
+				0A7648D8232F3ABF006C6FFA /* WKAppEventAnnotation.m */,
+				0A7648D9232F3ABF006C6FFA /* WKAppEventModuleManager.h */,
+				0A7648DA232F3ABF006C6FFA /* WKAppDelegate.m */,
+				0A7648DB232F3ABF006C6FFA /* WKAppEventModuleProtocol.h */,
+			);
+			path = WKAppDelegate;
+			sourceTree = "<group>";
+		};
 		83A00FB022129F7600A12191 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +133,7 @@
 		83A00FBB22129F7600A12191 /* WKAppDelegate-demo */ = {
 			isa = PBXGroup;
 			children = (
+				0A7648D0232F3ABF006C6FFA /* WKAppDelegate */,
 				83A010042214181500A12191 /* Bussiness */,
 				83A00FED2214055500A12191 /* Common */,
 				83A00FE02212AF1F00A12191 /* APPEventModule */,
@@ -178,7 +213,7 @@
 		8A2D7A747B93FA7CB090862D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B086923F0CEA35DC55E7B025 /* libPods-SHRMAppDelegate-demo.a */,
+				098C7D922B51540EF2379631 /* libPods-WKAppDelegate-demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,8 +221,8 @@
 		9D0BEFA860CFB5E7E9415BF2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */,
-				AE27BCFEBAD399ABEDBFC70D /* Pods-SHRMAppDelegate-demo.release.xcconfig */,
+				C8DB89397148A3D0A5BB66A8 /* Pods-WKAppDelegate-demo.debug.xcconfig */,
+				D3875AB90B1FB313E3327EF5 /* Pods-WKAppDelegate-demo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -274,7 +309,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SHRMAppDelegate-demo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WKAppDelegate-demo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -291,7 +326,10 @@
 				83A00FCC22129F7800A12191 /* main.m in Sources */,
 				83A00FE32212B34D00A12191 /* testMudule.m in Sources */,
 				83A00FE92212C39300A12191 /* MainViewController.m in Sources */,
+				0A7648E0232F3ABF006C6FFA /* WKAppDelegate.m in Sources */,
 				83A01003221417BD00A12191 /* BaseToolbar.m in Sources */,
+				0A7648DD232F3ABF006C6FFA /* WKAppEventModuleManager.m in Sources */,
+				0A7648DF232F3ABF006C6FFA /* WKAppEventAnnotation.m in Sources */,
 				83A01001221417BD00A12191 /* MainToolbar.m in Sources */,
 				83A010102214189A00A12191 /* SetViewController.m in Sources */,
 				83A0100D2214188F00A12191 /* ComponentController.m in Sources */,
@@ -300,8 +338,10 @@
 				83A0100A2214187000A12191 /* MyViewController.m in Sources */,
 				0A8B04952282CADA00A7EB06 /* testRemoteNotificationModule.m in Sources */,
 				83A00FE62212C16200A12191 /* testLowLevelModule.m in Sources */,
+				0A7648DC232F3ABF006C6FFA /* NSObject+AppEventModule.m in Sources */,
 				83A00FBE22129F7600A12191 /* AppDelegate.m in Sources */,
 				83A01002221417BD00A12191 /* BaseButton.m in Sources */,
+				0A7648DE232F3ABF006C6FFA /* WKBaseAppEventModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +481,7 @@
 		};
 		83A00FD022129F7800A12191 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2997C3FE793DAE3A7B205351 /* Pods-SHRMAppDelegate-demo.debug.xcconfig */;
+			baseConfigurationReference = C8DB89397148A3D0A5BB66A8 /* Pods-WKAppDelegate-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +499,7 @@
 		};
 		83A00FD122129F7800A12191 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE27BCFEBAD399ABEDBFC70D /* Pods-SHRMAppDelegate-demo.release.xcconfig */;
+			baseConfigurationReference = D3875AB90B1FB313E3327EF5 /* Pods-WKAppDelegate-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SHRMBaseAppEventModule.h"
+#import "WKBaseAppEventModule.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface testMudule : SHRMBaseAppEventModule
+@interface testMudule : WKBaseAppEventModule
 
 @end
 
