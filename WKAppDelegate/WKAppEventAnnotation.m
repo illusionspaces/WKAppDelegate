@@ -1,12 +1,12 @@
 //
-//  SHRMAppEventAnnotation.m
+//  WKAppEventAnnotation.m
 //  APPEventModule
 //
 //  Created by 王凯 on 2019/2/12.
 //  Copyright © 2019 王凯. All rights reserved.
 //
 
-#import "SHRMAppEventAnnotation.h"
+#import "WKAppEventAnnotation.h"
 #include <mach-o/getsect.h>
 #include <mach-o/loader.h>
 #include <mach-o/dyld.h>
@@ -43,14 +43,14 @@ static NSArray<NSString *>* FFReadConfiguration(char *section)
     
 }
 
-@implementation SHRMAppEventAnnotation
+@implementation WKAppEventAnnotation
 
 + (NSArray<NSString *> *)AnnotationModules
 {
     static NSArray<NSString *> *mods = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        mods = FFReadConfiguration(SHRMAppEventModSectName);
+        mods = FFReadConfiguration(WKAppEventModSectName);
     });
     return mods;
 }

@@ -1,19 +1,19 @@
 //
-//  SHRMAppEventModuleManager.m
+//  WKAppEventModuleManager.m
 //  APPEventModule
 //
 //  Created by 王凯 on 2019/2/12.
 //  Copyright © 2019 王凯. All rights reserved.
 //
 
-#import "SHRMAppEventModuleManager.h"
-#import "SHRMAppEventAnnotation.h"
-#import "SHRMAppEventModuleProtocol.h"
+#import "WKAppEventModuleManager.h"
+#import "WKAppEventAnnotation.h"
+#import "WKAppEventModuleProtocol.h"
 
 #define kModuleInfoNameKey  @"moduleClass"
 #define kModuleInfoLevelKey @"moduleLevel"
 
-@implementation SHRMAppEventModuleManager
+@implementation WKAppEventModuleManager
 
 + (instancetype)sharedInstance {
     static id sharedInstance = nil;
@@ -27,16 +27,16 @@
 #pragma mark - public methods
 
 - (void)registedAllModules {
-    NSArray<NSString *>*mods = [SHRMAppEventAnnotation AnnotationModules];
+    NSArray<NSString *>*mods = [WKAppEventAnnotation AnnotationModules];
     for (NSString *modName in mods)
     {
         if (modName)
         {
             Class moduleCls = NSClassFromString(modName);
-            if (moduleCls && [moduleCls conformsToProtocol:@protocol(SHRMAppEventModuleProtocol)])
+            if (moduleCls && [moduleCls conformsToProtocol:@protocol(WKAppEventModuleProtocol)])
             {
                 NSMutableDictionary *moduleInfo = [NSMutableDictionary dictionary];
-                id<SHRMAppEventModuleProtocol> moduleInstance = [[moduleCls alloc] init];
+                id<WKAppEventModuleProtocol> moduleInstance = [[moduleCls alloc] init];
                 NSInteger levelInt = (NSInteger)[moduleInstance performSelector:@selector(moduleLevel)];
                 [moduleInfo setObject:@(levelInt) forKey:kModuleInfoLevelKey];
                 [moduleInfo setObject:moduleInstance forKey:kModuleInfoNameKey];
@@ -53,7 +53,7 @@
     
     NSMutableArray *tmpArray = [NSMutableArray array];
     [self.appEventModules enumerateObjectsUsingBlock:^(NSDictionary *module, NSUInteger idx, BOOL * _Nonnull stop) {
-        id<SHRMAppEventModuleProtocol> moduleInstance = [module objectForKey:kModuleInfoNameKey];
+        id<WKAppEventModuleProtocol> moduleInstance = [module objectForKey:kModuleInfoNameKey];
         [tmpArray addObject:moduleInstance];
     }];
     
@@ -66,9 +66,9 @@
     // appEventModules遍历Event过程中，module执行完可以将自己移除
     // 这里赋值为临时array，防止array遍历过程中移除自己导致出错
     NSMutableArray *tmpAppEventModules = [[NSMutableArray alloc] initWithArray:self.appEventModules];
-    for (id<SHRMAppEventModuleProtocol>module in tmpAppEventModules)
+    for (id<WKAppEventModuleProtocol>module in tmpAppEventModules)
     {
-        if ([module conformsToProtocol:@protocol(SHRMAppEventModuleProtocol)])
+        if ([module conformsToProtocol:@protocol(WKAppEventModuleProtocol)])
         {
             if ([module respondsToSelector:eventSel]) {
                 if (complete) {
@@ -82,7 +82,7 @@
 - (void)removeModule:(NSString *)moduleID {
     NSInteger index = NSNotFound;
     NSInteger resIndex = 0;
-    for (id<SHRMAppEventModuleProtocol>module in self.appEventModules)
+    for (id<WKAppEventModuleProtocol>module in self.appEventModules)
     {
         if ([[module moduleID] isEqualToString:moduleID])
         {

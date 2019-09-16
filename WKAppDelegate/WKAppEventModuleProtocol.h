@@ -1,5 +1,5 @@
 //
-//  SHRMAppEventModuleProtocol.h
+//  WKAppEventModuleProtocol.h
 //  APPEventModule
 //
 //  Created by 王凯 on 2019/2/12.
@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "SHRMAppEventAnnotation.h"
+#import "WKAppEventAnnotation.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol SHRMAppEventModuleProtocol <UIApplicationDelegate>
+@protocol WKAppEventModuleProtocol <UIApplicationDelegate>
 
 /**
  mudule执行优先级

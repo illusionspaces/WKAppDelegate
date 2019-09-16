@@ -1,5 +1,5 @@
 //
-//  SHRMAppEventModuleManager.h
+//  WKAppEventModuleManager.h
 //  APPEventModule
 //
 //  Created by 王凯 on 2019/2/12.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SHRMAppEventModuleManager : NSObject
+@interface WKAppEventModuleManager : NSObject
 /**
  当前需要执行的AppEventModule容器
  */

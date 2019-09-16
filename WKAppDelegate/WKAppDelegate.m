@@ -1,24 +1,24 @@
 //
-//  SHRMAppDelegate.m
+//  WKAppDelegate.m
 //  APPEventModule
 //
 //  Created by 王凯 on 2019/2/12.
 //  Copyright © 2019 王凯. All rights reserved.
 //
 
-#import "SHRMAppDelegate.h"
-#import "SHRMAppEventModuleManager.h"
+#import "WKAppDelegate.h"
+#import "WKAppEventModuleManager.h"
 #import "NSObject+AppEventModule.h"
 
-@implementation SHRMAppDelegate
+@implementation WKAppDelegate
 
 + (void)load {
-    [[SHRMAppEventModuleManager sharedInstance] registedAllModules];
+    [[WKAppEventModuleManager sharedInstance] registedAllModules];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:didFinishLaunchingWithOptions:)
+    [[WKAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:didFinishLaunchingWithOptions:)
                                                               Complete:^(id  _Nonnull module, SEL  _Nonnull sel) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
@@ -32,7 +32,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     
-    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(applicationDidEnterBackground:)
+    [[WKAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(applicationDidEnterBackground:)
                                                               Complete:^(id  _Nonnull module, SEL  _Nonnull sel) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
@@ -43,7 +43,7 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(applicationWillEnterForeground:)
+    [[WKAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(applicationWillEnterForeground:)
                                                               Complete:^(id  _Nonnull module, SEL  _Nonnull sel) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
@@ -54,7 +54,7 @@
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 API_AVAILABLE(ios(7.0)){
-    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:didReceiveRemoteNotification:fetchCompletionHandler:)
+    [[WKAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:didReceiveRemoteNotification:fetchCompletionHandler:)
                                                               Complete:^(id module, SEL sel) {
          [module performSelector:sel
                       withObject:application
@@ -66,7 +66,7 @@ API_AVAILABLE(ios(7.0)){
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     __block BOOL result = YES;
-    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:
+    [[WKAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:
                                                                               openURL:
                                                                               sourceApplication:
                                                                               annotation:)
@@ -87,7 +87,7 @@ API_AVAILABLE(ios(7.0)){
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
 {
     __block BOOL result = YES;
-    [[SHRMAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:
+    [[WKAppEventModuleManager sharedInstance] handleApplicationEvent:@selector(application:
                                                                               openURL:
                                                                               options:)
                                                            Complete:^(id module, SEL sel)

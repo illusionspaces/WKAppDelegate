@@ -1,6 +1,6 @@
 //
 //  NSObject+AppEventModule.m
-//  Pods-SHRMAppDelegate-demo
+//  Pods-WKAppDelegate-demo
 //
 //  Created by Kevin on 2019/5/8.
 //
