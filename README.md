@@ -8,7 +8,7 @@
 
 
 #### 注：在`v0.0.3`版本引入`NSObject+AppEventModule`分类，用以解决`NSObject`的`performSelector:`函数最多支持2个参数的问题。
-#### 注：0.0.4版本进行了prefix变更，SHRM变更为WK。
+#### 注：0.0.5版本进行了prefix变更，SHRM变更为WK。
 
 
 ## Link
